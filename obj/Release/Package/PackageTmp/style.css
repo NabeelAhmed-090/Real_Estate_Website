@@ -1,0 +1,920 @@
+﻿.mydatagrid {
+    width: 80%;
+    border: solid 2px black;
+    min-width: 80%;
+}
+
+.header {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.mydatagrid {
+    width: 90%;
+    border: solid 2px black;
+    min-width: 80%;
+}
+
+.header {
+    background-color: rgba(16,16,16,0.8);
+    font-variant:small-caps;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.rows {
+    background-color: rgba(239,239,239,0.9);
+    font-variant:small-caps;
+    /*font-family: Arial;*/
+    font-size: 13px;
+    color: #000;
+    min-height: 25px;
+    text-align: center;
+    border: none 0px transparent;
+}
+
+    .rows:hover {
+        background-color: darkgrey;
+        font-family: Arial;
+        color: #fff;
+        text-align: left;
+    }
+
+.selectedrow {
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .mydatagrid a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        background-color: #000;
+        color: #fff;
+    }
+
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: rgba(16,16,16,0.8);
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 10px;
+    text-align: center;
+}
+
+.mydatagrid th {
+    padding: 10px;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.mydatagrid_1 {
+    width: 90%;
+    border: solid 2px black;
+    min-width: 80%;
+}
+
+.header_1 {
+    background-color: rgba(16,16,16,0.8);
+    font-family: Arial;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.rows_1 {
+    background-color: rgba(239,239,239,0.9);
+    font-family: Arial;
+    font-size: 13px;
+    color: #000;
+    min-height: 25px;
+    text-align: center;
+    border: none 0px transparent;
+}
+
+    .rows_1:hover {
+        background-color: darkgrey;
+        font-family: Arial;
+        color: #fff;
+        text-align: left;
+    }
+
+.selectedrow_1 {
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid_1 a /** FOR THE PAGING ICONS **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .mydatagrid_1 a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        background-color: #000;
+        color: #fff;
+    }
+
+.mydatagrid_1 span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager_1 {
+    background-color: rgba(16,16,16,0.8);
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid_1 td {
+    padding: 10px;
+    text-align: center;
+}
+
+.mydatagrid_1 th {
+    padding: 10px;
+    text-align: center;
+}
+
+/*visit profile table*/
+.mydatagrid_2 {
+    width: 90%;
+    border: solid 2px black;
+    min-width: 80%;
+}
+
+.header_2 {
+    background-color: rgba(16,16,16,0.8);
+    font-family: Arial;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.rows_2 {
+    background-color: rgba(16,16,16);
+    font-family: Arial;
+    font-size: 13px;
+    color: #000;
+    min-height: 25px;
+    text-align: center;
+    border: none 0px transparent;
+    color: white;
+    text-align: center;
+}
+
+    .rows_2:hover {
+        background-color: rgba(32,32,32,0.8);
+        font-family: Arial;
+        color: #fff;
+        text-align: left;
+    }
+
+.selectedrow_2 {
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid_2 a /** FOR THE PAGING ICONS **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .mydatagrid_2 a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        background-color: #000;
+        color: #fff;
+    }
+
+.mydatagrid_2 span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager_2 {
+    background-color: rgba(16,16,16,0.8);
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid_2 td {
+    padding: 10px;
+    text-align: center;
+}
+
+.mydatagrid_2 th {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* ---------------------------------Banner section ----------------------------------------------*/
+.banner_section_homepage {
+    background-image: url("Images/Homepage.jpg");
+    background-size: cover;
+    height: 150vh;
+}
+
+.banner_section_feed {
+    background-color: rgb(239,239,239);
+    background-size: cover;
+    height: 120vh;
+}
+
+
+.banner_section_complain {
+    background-image: url("Images/complaint.jpeg");
+    background-size: cover;
+    height: 150vh;
+}
+
+.banner_section_User {
+    background-image: url("Images/user.jpg");
+    background-size: cover;
+    height: 150vh;
+}
+
+.banner_section_Save {
+    background-image: url("Images/viewprofile.jpg");
+    background-size: cover;
+    height: 150vh;
+}
+
+.banner_section_Profile_Editing {
+    background-image: url("Images/Property_1.jpg");
+    background-size: cover;
+    height: 150vh;
+    /*opacity: 0.9;*/
+}
+
+.banner_section_Search {
+    background-image: url("Images/complaint.jpeg");
+    background-size: cover;
+    /*background-color:black;*/
+    /*    background-position: bottom right;
+    background-repeat: no-repeat;*/
+    height: 150vh;
+}
+
+.banner_section_Agent {
+    background-image: url("Images/Agent_3.jpg");
+    background-size: cover;
+    height: 150vh;
+    padding-top: 1%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner_section_Property {
+    max-width: 100%;
+    background-image: url("Images/Property_1.jpg");
+    /*background-color: rgb(207,207,207);*/
+    background-size: cover;
+    height: 150vh;
+    position: relative
+}
+
+    .banner_section_Property::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+.banner_section_Visit_Profile {
+    background-image: url("Images/viewprofile.jpg");
+    background-size: cover;
+    height: 150vh;
+}
+
+
+/*  ------------------------------------------------------------------------------------------  */
+
+
+.custom {
+    width: 45%;
+    margin-top: 7%;
+    margin-left: 10%;
+    padding: 5%;
+    background-color: #22262b;
+}
+
+#sign-in_homepage {
+    display: block;
+}
+
+#sign-up_homepage {
+    display: none;
+}
+
+.custom_form {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 7%;
+    padding: 5%;
+    background-color: #22262b;
+}
+
+@media (max-width:700px) {
+    #UserProfile_User {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:500px) {
+    .custom_form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:1000px) {
+    .custom_form {
+        width: 70%;
+    }
+}
+
+@media (max-width:700px) {
+    .custom {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15%;
+    }
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.custom1 {
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 22%;
+    padding: 3%;
+    background-color: rgba(24, 24, 24, 0.9);
+    border-radius: 35px;
+    transition: 500ms;
+}
+
+.customPropUser {
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 16%;
+    padding: 3%;
+    background-color: rgba(24, 24, 24, 0.9);
+    border-radius: 35px;
+    transition: 500ms;
+}
+
+.custom2 {
+    width: 20%;
+    margin-top: 7%;
+    padding: 3%;
+    background-color: rgba(24,24,24,0.9);
+    border-radius: 35px;
+    transition: 500ms;
+}
+
+
+@media(max-width:840) {
+    .custom1 {
+        width: 10%;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+.image-container_1 {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+
+
+#image-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 70%;
+}
+
+
+
+#image {
+    width: auto;
+    height: 100%;
+}
+
+.UserProfile {
+    background-color: rgba(48, 48, 48, 0.8);
+    padding: 10px;
+    height: auto;
+    width: 1263px;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optionButton {
+    background-color: #404040;
+    height: 75px;
+    width: 500px;
+}
+
+.settings {
+    background-color: #404040;
+    height: 75px;
+    width: 263px;
+    border-left: 1px solid black;
+}
+
+#Table {
+    width: 500px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.bt {
+    height: 40px;
+    width: 80px;
+}
+
+#image-container_Property {
+    width: 480px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+@media (max-width:590) {
+    #image-container_Property {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border: 5px solid white;
+    }
+}
+
+#house_pic_Property {
+    width: 1000px;
+    height: 300px;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    background: url(images/house_2.jpg) no-repeat center center fixed;
+    border: 1px solid black;
+    border-radius: 30%;
+}
+
+#image_Property {
+    width: auto;
+    height: 100%;
+}
+
+.property {
+    margin-right: 10px;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(56,56,56);
+    opacity: 0.9;
+}
+
+.propertyForm {
+    height: 250px;
+    width: 200px;
+    background-color: #303030;
+    opacity: 0.9;
+}
+
+.UserProfile_Property {
+    height: 320px;
+    width: 1263px;
+}
+
+.optionButton {
+    background-color: #404040;
+    height: 75px;
+    width: 500px;
+}
+
+.settings {
+    background-color: #404040;
+    height: 75px;
+    width: 263px;
+    border-left: 1px solid black;
+}
+
+.searchArea {
+    height: 250px;
+    width: 200px;
+    background-color: #303030;
+    opacity: 0.9;
+}
+
+.custom_Users {
+    width: 45%;
+    margin-top: 20px;
+    background-color: rgba(48, 48, 48,0.7);
+}
+
+
+
+.Suggestions {
+    margin-top: 20px;
+    background-color: #22262b;
+}
+
+#userPic {
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    overflow: hidden;
+    margin-left: 65px;
+}
+
+#userProPic {
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+.custom_Boxes {
+    margin-top: 50px;
+    margin-left: 8px;
+    padding: 10%;
+    background-color: #22262b;
+}
+
+.Property_User {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 3%;
+    background-color: rgb(24, 24, 24, 0.9);
+    border-radius: 35px;
+}
+
+#image-container_Suggestion {
+    width: 50px;
+    height: 75px;
+    overflow: hidden;
+    border: 1px solid black;
+    /* border-radius: 50%; */
+}
+
+#image_Suggestion {
+    width: auto;
+    height: 100%;
+}
+
+.banner_section_AboutUs {
+    background-color: black;
+    background-size: cover;
+    height: 120%;
+}
+
+.custom_Agent_Pro {
+    width: 20%;
+    margin-top: 7%;
+    padding: 3%;
+    background-color: rgba(8, 8, 8, 0.8);
+}
+
+.Settings {
+    /* background-image: url("i.jpg"); */
+    background-color: black;
+    opacity: 0.7;
+}
+
+.custom_Profile_Edit_Properties {
+    width: 20%;
+    margin-top: 12%;
+    margin-left: 40%;
+    padding: 3%;
+    background-color: rgba(40, 40, 40, 0.7);
+    border-radius: 35px;
+}
+
+
+.custom_Profile_Edit {
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 22%;
+    padding: 3%;
+    background-color: rgba(40, 40, 40, 0.7);
+    border-radius: 35px;
+}
+
+.custom_Profile_Edit_Add {
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 22%;
+    padding: 3%;
+    background-color: rgba(40, 40, 40, 0.7);
+    border-radius: 35px;
+}
+
+
+#Add_Properties {
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 22%;
+    padding: 3%;
+    background-color: rgba(40, 40, 40, 0.7);
+    border-radius: 35px;
+}
+
+.flip-card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+div.modal div.modal-backdrop {
+    z-index: 0;
+}
+
+.propertyForm_1 {
+    height: 230px;
+    width: 200px;
+    background-color: rgb(56,56,56);
+    opacity: 0.9;
+}
+
+.div_users {
+    height: 400px;
+    position: relative;
+    float: left;
+    width: 600px;
+    display: none;
+}
+
+.marginL {
+    margin-left: 5px;
+}
+
+@media(max-width:1100) {
+    .marginL {
+        margin-left: 0px;
+    }
+}
+
+#subs_title {
+    position: relative;
+    margin-left: 160px;
+}
+
+@media(max-width:991) {
+    .banner_section_User {
+        height: 500vh;
+    }
+
+    #drop_user {
+        float: left;
+    }
+
+    #dropdown_user {
+        float: left;
+    }
+
+    #buyer {
+        float: left;
+    }
+
+    #sell {
+        float: left;
+    }
+
+    .custom1 {
+        width: 0;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0;
+        border-radius: 35px;
+    }
+
+    #subs_title {
+        float: left;
+        position: absolute;
+        margin-left: 20px;
+    }
+}
+
+#propertyImage {
+    padding-top: 3%;
+    /*border: 2px solid black;*/
+    /*background-image: url(Images/house_3.jpg);*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:590px) {
+    #propertyImage {
+        padding-top: 0;
+    }
+}
+
+@media(max-width:700) {
+    .banner_section_User {
+        height: 500vh;
+    }
+
+    #drop_user {
+        float: left;
+    }
+
+    #dropdown_user {
+        float: left;
+    }
+
+    #buyer {
+        float: left;
+    }
+
+    #sell {
+        float: left;
+    }
+
+    .custom1 {
+        width: 0;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0;
+        border-radius: 35px;
+    }
+
+    #subs_title {
+        float: left;
+        position: absolute;
+        margin-left: 0px;
+    }
+}
+
+
+/*                     scroll bar                          */
+
+/* width */
+/*
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+}
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(112,112,112,0.9);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(80,80,80,0.9);
+    }
+
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+
+
+/*-----------------------------------------------------------------------------------*/
+/* HIDE RADIO */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}

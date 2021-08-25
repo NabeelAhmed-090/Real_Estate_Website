@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Bunyaad_Connection_String-Web.config Connection String" description="Bunyaad_Connection_String Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:bunyaaddbserver.database.windows.net,1433;Initial Catalog=Bunyaad_db;Persist Security Info=False;User ID=nabeelahmed;Password=ahmednabeel09@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dell\\source\\repos\\Bunyaad\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Bunyaad_Connection_String']/@connectionString" />
+  </parameter>
+</parameters>
